@@ -27,8 +27,8 @@
     <USERDEFINES value="_DEBUG"/>
     <SYSDEFINES value="NO_STRICT"/>
     <MAINSOURCE value="Connect.cpp"/>
-    <INCLUDEPATH value="&quot;..\..\..\..\工作\Program\Hello Focus2 in BCB&quot;;&quot;C:\Program Files (x86)\Borland\CBuilder6\Bin&quot;;D:\William\Program\HelloFocus2inBCB;$(BCB)\include;$(BCB)\include\vcl"/>
-    <LIBPATH value="&quot;..\..\..\..\工作\Program\Hello Focus2 in BCB&quot;;&quot;C:\Program Files (x86)\Borland\CBuilder6\Bin&quot;;D:\William\Program\HelloFocus2inBCB;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <INCLUDEPATH value="&quot;C:\Program Files (x86)\Borland\CBuilder6\Bin&quot;;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="&quot;C:\Program Files (x86)\Borland\CBuilder6\Bin&quot;;$(BCB)\lib\obj;$(BCB)\lib"/>
     <WARNINGS value="-w-par"/>
     <OTHERFILES value=""/>
   </MACROS>
@@ -85,12 +85,16 @@ ProductVersion=1.0.0.0
 Comments=
 
 [HistoryLists\hlIncludePath]
-Count=1
-Item0=$(BCB)\include;$(BCB)\include\vcl
+Count=3
+Item0=C:\Program Files (x86)\Borland\CBuilder6\Bin;$(BCB)\include;$(BCB)\include\vcl
+Item1=..\..\..\..\工作\Program\Hello Focus2 in BCB;C:\Program Files (x86)\Borland\CBuilder6\Bin;D:\William\Program\HelloFocus2inBCB;$(BCB)\include;$(BCB)\include\vcl
+Item2=$(BCB)\include;$(BCB)\include\vcl
 
 [HistoryLists\hlLibraryPath]
-Count=1
-Item0=$(BCB)\lib\obj;$(BCB)\lib
+Count=3
+Item0=C:\Program Files (x86)\Borland\CBuilder6\Bin;$(BCB)\lib\obj;$(BCB)\lib
+Item1=..\..\..\..\工作\Program\Hello Focus2 in BCB;C:\Program Files (x86)\Borland\CBuilder6\Bin;D:\William\Program\HelloFocus2inBCB;$(BCB)\lib\obj;$(BCB)\lib
+Item2=$(BCB)\lib\obj;$(BCB)\lib
 
 [HistoryLists\hlDebugSourcePath]
 Count=1
